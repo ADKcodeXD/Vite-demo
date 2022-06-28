@@ -19,10 +19,8 @@ export default defineConfig({
     Vue({
       reactivityTransform: true,
     }),
-
     // https://github.com/hannoeru/vite-plugin-pages
     Pages(),
-
     // https://github.com/antfu/unplugin-auto-import
     AutoImport({
       imports: [
@@ -37,12 +35,10 @@ export default defineConfig({
       ],
       vueTemplate: true,
     }),
-
     // https://github.com/antfu/vite-plugin-components
     Components({
       dts: true,
     }),
-
     // https://github.com/antfu/unocss
     // see unocss.config.ts for config
     Unocss(),

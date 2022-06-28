@@ -3,9 +3,7 @@ import {
   presetAttributify,
   presetIcons,
   presetUno,
-  presetWebFonts,
-  // transformerDirectives,
-  // transformerVariantGroup,
+  presetWebFonts
 } from 'unocss'
 
 export default defineConfig({
